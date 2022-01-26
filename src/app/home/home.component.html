@@ -1,4 +1,5 @@
 
+
 <h1>About the Demo</h1>
 
 <section>
@@ -9,37 +10,12 @@
 
   <p>
     The project is using the
-    <a href="https://github.com/tensorflow/tfjs-models/tree/master/handpose"
-      >handpose</a
+    <a href="https://github.com/tensorflow/tfjs-models"
+      >Mobilenet</a
     >
-    model to recognize hands and their features. After that, we pass the output
-    to
-    <a href="https://github.com/andypotato/fingerpose">fingerpose</a> which
-    estimates the hand sign. Once we recognize an action, we emit it via a
-    BehaviorSubject. A component, subscribed to the BehaviorSubject processes
-    the user action.
+    model to classify images and their features. After that, we pass the output
+    to emit it via a BehaviorSubject. A component, subscribed to the BehaviorSubject processes the user action.
   </p>
 </section>
 
-
-
-<!--  
-<mat-card class="example-card">
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>Shiba Inu</mat-card-title>
-    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-  </mat-card-header>
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-  <mat-card-content>
-    <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-      bred for hunting.
-    </p>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-  </mat-card-actions>
-</mat-card> -->
+<app-mobilenet></app-mobilenet>

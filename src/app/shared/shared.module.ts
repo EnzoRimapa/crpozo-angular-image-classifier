@@ -7,13 +7,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 
 import { MenuComponent } from './menu/menu.component';
+import { MobilenetComponent } from './mobilenet/mobilenet.component';
 
 @NgModule({
   declarations: [
-    MenuComponent
+    MenuComponent,
+    MobilenetComponent
   ],
   exports:[
-    MenuComponent
+    MenuComponent,
+    MobilenetComponent
   ],
   imports: [
     CommonModule,
