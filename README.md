@@ -3,8 +3,8 @@
 Image classifier with Angular and Tensorflow.js
 
 Requirements:
-- Tensorflow: "^1.3.1",
-- mobilenet: "^2.0.4",
+- Tensorflow: "^1.3.1"
+- mobilenet: "^2.0.4"
 
 # Screenshots
 
