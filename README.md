@@ -12,7 +12,7 @@ Webcam
 
 ![image](./src/assets/controll.png)
 
-File selection
+File selection 
 
 ![image](./src/assets/dog.png)
 
