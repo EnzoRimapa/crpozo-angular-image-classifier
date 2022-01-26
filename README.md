@@ -10,9 +10,9 @@ Requirements:
 
 Webcam
 
-![image](./src/assets/controll.png)
+![image](./src/assets/controll.PNG)
 
 File selection 
 
-![image](./src/assets/dog.png)
+![image](./src/assets/dog.PNG)
 
